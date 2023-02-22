@@ -1,2 +1,123 @@
 /* footer
  -----------------------------------------------------*/
+.bg-footer {
+  background: url(../images/bg-footer.png) no-repeat top;
+  -webkit-background-size: 100% auto;
+          background-size: 100% auto;
+  height: 12vw;
+  display: block;
+}
+
+.page-footer {
+  padding: 2% 0px 2% 0px;
+  background: #9c7450;
+  color: #FFF;
+  -webkit-background-size: 100% auto;
+          background-size: 100% auto;
+}
+.page-footer .top-meta {
+  padding: 0px 0px 3%;
+  margin: 0px 0px 3%;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.page-footer .top-meta .logo {
+  width: 15%;
+}
+.page-footer .top-meta .logo img {
+  width: 100%;
+}
+.page-footer .top-meta .meta {
+  width: 85%;
+  padding-left: 5%;
+}
+.page-footer .info-meta {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.page-footer .info-meta .item {
+  width: 32%;
+}
+.page-footer .info-meta .item .img-fb {
+  width: 100%;
+}
+.page-footer .info-meta .item .title {
+  margin: 0px 0px 0.7em;
+}
+.page-footer .info-meta .address {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.page-footer .info-meta .address .icon {
+  width: 26%;
+}
+.page-footer .info-meta .address .icon img {
+  width: 80%;
+}
+.page-footer .info-meta .address .info {
+  width: 74%;
+}
+.page-footer .info-meta .address .info p {
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0px;
+}
+.page-footer .info-meta .address .info a {
+  color: #FFF;
+  cursor: pointer;
+}
+.page-footer .info-meta .address .info a:hover {
+  color: #01B7F2;
+}
+@media screen and (max-width: 768px) {
+  .page-footer .top-meta {
+    display: block;
+  }
+  .page-footer .top-meta .logo {
+    width: 100%;
+  }
+  .page-footer .top-meta .logo a {
+    width: 35%;
+    display: table;
+    margin: 0 auto;
+  }
+  .page-footer .top-meta .meta {
+    width: 100%;
+    padding: 0px;
+  }
+  .page-footer .info-meta {
+    display: block;
+  }
+  .page-footer .info-meta .item {
+    width: 100%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 0px 0px 3%;
+    margin: 0px 0px 3%;
+    text-align: justify;
+  }
+  .page-footer .info-meta .item:last-child {
+    border-bottom: none;
+  }
+}

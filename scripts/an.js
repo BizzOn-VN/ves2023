@@ -27,4 +27,14 @@ jQuery(document).on("ready",function () {
 	  touch: false
 	});
 });
-$("#popup-success").fancybox().trigger('click');
+// $("#popup-success").fancybox().trigger('click');
+$(".icon-collapse").click(function(){
+	if($(this).hasClass("active")){
+		$(this).closest(".blk-row").find(".info-hidden").addClass("hide-content");
+		$(this).removeClass("active");
+	}else{
+		$(this).addClass("active");
+		$(this).closest(".blk-row").find(".info-hidden").removeClass("hide-content");
+	}
+	
+})

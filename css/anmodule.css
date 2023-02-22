@@ -1,5 +1,9 @@
 /* module css 01
  -----------------------------------------------------*/
+.hide-content {
+  display: none !important;
+}
+
 .md-desktop {
   display: block !important;
 }
@@ -128,19 +132,11 @@
     font-size: calc(8px + 2.15vw);
   }
 }
-.blk-banner {
-  margin-bottom: 3vw;
-}
 .blk-banner img {
   width: 100%;
 }
-@media screen and (max-width: 768px) {
-  .blk-banner {
-    margin-bottom: 7vw;
-  }
-}
-
 .blk-gioi-thieu {
+  padding-top: 3vw;
   margin-bottom: 10%;
 }
 .blk-gioi-thieu .gioi-thieu {
@@ -197,6 +193,7 @@
 @media screen and (max-width: 768px) {
   .blk-gioi-thieu {
     margin-bottom: 25%;
+    padding-top: 7vw;
   }
   .blk-gioi-thieu .gioi-thieu {
     margin-bottom: 7vw;
@@ -530,6 +527,9 @@
   }
 }
 
+.detail-activity {
+  margin-bottom: 4vw;
+}
 .detail-activity .md-row {
   display: -webkit-box;
   display: -webkit-flex;
@@ -601,6 +601,9 @@
   border-bottom: 0.3rem solid rgba(1, 183, 242, 0.15);
 }
 @media screen and (max-width: 768px) {
+  .detail-activity {
+    margin-bottom: 2vw;
+  }
   .detail-activity .ctn-inner {
     width: 100%;
   }
@@ -935,4 +938,69 @@
     width: 100%;
     margin-bottom: 1.2rem;
   }
+}
+
+.nha-tai-tro .blk-item {
+  width: 45%;
+}
+.nha-tai-tro .md-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.smd-title {
+  padding: 2% 0px;
+  text-align: center;
+  border-top: 1px solid #ebeceb;
+  border-bottom: 1px solid #ebeceb;
+}
+
+.list-sponsor {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.list-sponsor .item img {
+  width: 100%;
+}
+.list-sponsor .icon-pda {
+  width: 15.3%;
+}
+.list-sponsor .icon-niteco {
+  width: 15.8%;
+}
+.list-sponsor .icon-meey-land {
+  width: 14.7%;
+}
+.list-sponsor .icon-michael-page {
+  width: 16.9%;
+}
+.list-sponsor .icon-flamingo {
+  width: 20.54%;
+}
+.list-sponsor .icon-galaxy {
+  width: 22.5%;
+}
+.list-sponsor .icon-industracom {
+  width: 23.24%;
+}
+.list-sponsor .icon-vani-studio {
+  width: 15.6%;
+}
+.list-sponsor a {
+  display: block;
+}
+.list-sponsor a img {
+  width: 100%;
 }
