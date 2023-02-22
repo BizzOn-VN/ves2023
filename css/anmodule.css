@@ -33,6 +33,7 @@
   }
 }
 .smd-register {
+  display: inline-block;
   background: #FF376E;
   border-radius: 2rem;
   padding: 0.5rem 2.5rem;
@@ -909,9 +910,22 @@
   border: 2px solid #E6E6E6;
   padding: 3% 2% 4% 2%;
 }
+.blk-register .smd-option .item p {
+  margin: 0px 0px 1vw;
+}
+.blk-register .smd-option .item .top-meta {
+  margin: 0px 0px 2.5vw;
+}
+.blk-register .smd-option .item .info {
+  margin: 0px 0px 2vw;
+}
 .blk-register .smd-option .item span {
   display: block;
   line-height: 1.1em;
+}
+.blk-register .smd-option .item .smd-register {
+  padding: 1.2em 3.5em;
+  min-width: 77%;
 }
 @media screen and (max-width: 768px) {
   .blk-register .smd-option {

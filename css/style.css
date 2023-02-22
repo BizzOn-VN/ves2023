@@ -207,6 +207,32 @@ input[type=submit] {
   }
 }
 
+.popup-success {
+  text-align: center;
+  width: 40%;
+}
+.popup-success .icon-success {
+  width: 4em;
+  display: table;
+  margin: 0 auto 1em auto;
+}
+.popup-success h3 {
+  text-align: center;
+  font-size: -webkit-calc(4px + 2.3vw);
+  font-size: calc(4px + 2.3vw);
+  margin-bottom: 0.5em;
+  color: #00a604;
+}
+@media screen and (max-width: 768px) {
+  .popup-success {
+    width: 90%;
+  }
+  .popup-success h3 {
+    font-size: -webkit-calc(4px + 4vw);
+    font-size: calc(4px + 4vw);
+  }
+}
+
 /* footer
  -----------------------------------------------------*/
 /* module css 01
@@ -244,6 +270,7 @@ input[type=submit] {
   }
 }
 .smd-register {
+  display: inline-block;
   background: #FF376E;
   border-radius: 2rem;
   padding: 0.5rem 2.5rem;
@@ -1120,9 +1147,22 @@ input[type=submit] {
   border: 2px solid #E6E6E6;
   padding: 3% 2% 4% 2%;
 }
+.blk-register .smd-option .item p {
+  margin: 0px 0px 1vw;
+}
+.blk-register .smd-option .item .top-meta {
+  margin: 0px 0px 2.5vw;
+}
+.blk-register .smd-option .item .info {
+  margin: 0px 0px 2vw;
+}
 .blk-register .smd-option .item span {
   display: block;
   line-height: 1.1em;
+}
+.blk-register .smd-option .item .smd-register {
+  padding: 1.2em 3.5em;
+  min-width: 77%;
 }
 @media screen and (max-width: 768px) {
   .blk-register .smd-option {

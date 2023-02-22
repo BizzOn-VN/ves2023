@@ -19,8 +19,12 @@
 
 
 jQuery(document).on("ready",function () {
-	$(".popup-fancybox").fancybox({
-			'hideOnContentClick': true
-		});
+	$("[data-fancybox]").fancybox({
+	    touch: false,
+	    clickSlide: false
+	  });
+	  $('selector').fancybox({
+	  touch: false
+	});
 });
-
+$("#popup-success").fancybox().trigger('click');
