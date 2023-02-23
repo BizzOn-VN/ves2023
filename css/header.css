@@ -3,6 +3,30 @@
 .page-header {
   padding: 0.7vw 0px;
 }
+.page-header.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background: #FFF;
+  padding: 1vw 0px;
+  -webkit-box-shadow: 2px 2px 12px -2px #fabf00;
+          box-shadow: 2px 2px 12px -2px #fabf00;
+  z-index: 100;
+}
+@media screen and (max-width: 768px) {
+  .page-header.sticky {
+    padding: 1.7vw 1vw;
+  }
+  .page-header.sticky .logo {
+    width: 23%;
+    min-width: 80px;
+  }
+  .page-header.sticky .register a {
+    padding: 1.2vw 2.7vw;
+  }
+}
 .page-header .ctn-inner {
   width: 80%;
   display: -webkit-box;

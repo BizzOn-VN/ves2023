@@ -38,3 +38,10 @@ $(".icon-collapse").click(function(){
 	}
 	
 })
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 400) {
+    $(".page-header").addClass('sticky');
+  } else {
+    $(".page-header").removeClass('sticky');
+  }
+});
