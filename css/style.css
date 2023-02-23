@@ -379,8 +379,10 @@ input[type=submit] {
 
 /* module css 01
  -----------------------------------------------------*/
-.hide-content {
-  display: none !important;
+@media screen and (max-width: 768px) {
+  .hide-content {
+    display: none !important;
+  }
 }
 
 .md-desktop {
