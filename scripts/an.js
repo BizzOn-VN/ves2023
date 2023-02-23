@@ -45,3 +45,12 @@ $(window).scroll(function() {
     $(".page-header").removeClass('sticky');
   }
 });
+
+$(".s-click").click(function(){
+	var get_attr=$(this).attr("data-src");
+	
+	    $('html,body').animate({
+	        scrollTop: $(get_attr).offset().top -$(".page-header").outerHeight()},
+	        'slow');
+	
+})

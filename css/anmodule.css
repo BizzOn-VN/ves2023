@@ -37,6 +37,7 @@
   }
 }
 .smd-register {
+  cursor: pointer;
   display: inline-block;
   background: #FF376E;
   border-radius: 2rem;

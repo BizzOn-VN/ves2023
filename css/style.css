@@ -6,10 +6,6 @@
   outline: transparent;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
@@ -99,7 +95,7 @@ input[type=submit] {
 }
 @media screen and (max-width: 768px) {
   .page-header.sticky {
-    padding: 1.7vw 1vw;
+    padding: 1.7vw 4vw;
   }
   .page-header.sticky .logo {
     width: 23%;
@@ -420,6 +416,7 @@ input[type=submit] {
   }
 }
 .smd-register {
+  cursor: pointer;
   display: inline-block;
   background: #FF376E;
   border-radius: 2rem;
