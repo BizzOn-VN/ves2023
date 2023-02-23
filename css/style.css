@@ -170,6 +170,7 @@ input[type=submit] {
           justify-content: space-between;
 }
 .page-header .nav ul li a {
+  cursor: pointer;
   font-size: -webkit-calc(10px + 0.7vw);
   font-size: calc(10px + 0.7vw);
   padding: 0.3vw 1.8vw;
@@ -417,7 +418,12 @@ input[type=submit] {
     width: 90%;
   }
 }
+.s-click {
+  cursor: pointer;
+}
+
 .smd-register {
+  display: inline-block;
   cursor: pointer;
   display: inline-block;
   background: #FF376E;

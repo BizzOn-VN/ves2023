@@ -38,7 +38,12 @@
     width: 90%;
   }
 }
+.s-click {
+  cursor: pointer;
+}
+
 .smd-register {
+  display: inline-block;
   cursor: pointer;
   display: inline-block;
   background: #FF376E;
