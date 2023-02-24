@@ -6,11 +6,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>DIỄN ĐÀN GIÁO DỤC VIỆT NAM 2023 | FAROS Education & Consulting</title>
+  <title>DIỄN ĐÀN GIÁO DỤC VIỆT NAM 2023 | Ngày Triển lãm và Đối thoại cộng đồng<title>
   <meta property="og:image" content="https://ves2023.org/images/image-thumb.png" >   
-<meta name="description" content="VES 2023 do Tổ chức Khoa học và Chuyên gia Việt Nam toàn cầu (EduNet – AVSE Global), Trường Đại học Sư phạm Hà Nội và Công ty Tư vấn Giáo dục FAROS Education & Consulting đồng tổ chức." >
-<meta property="og:title" content="DIỄN ĐÀN GIÁO DỤC VIỆT NAM 2023 | FAROS Education & Consulting" >
-<meta property="og:description" content="VES 2023 do Tổ chức Khoa học và Chuyên gia Việt Nam toàn cầu (EduNet – AVSE Global), Trường Đại học Sư phạm Hà Nội và Công ty Tư vấn Giáo dục FAROS Education & Consulting đồng tổ chức." >
+<meta name="description" content="Sự kiện mang chủ đề “Tư duy lại tương lai” được thiết kế dành riêng cho những người thực hành giáo dục mầm non." >
+<meta property="og:title" content="DIỄN ĐÀN GIÁO DỤC VIỆT NAM 2023 | Ngày Triển lãm và Đối thoại cộng đồng" >
+<meta property="og:description" content="Sự kiện mang chủ đề “Tư duy lại tương lai” được thiết kế dành riêng cho những người thực hành giáo dục mầm non." >
 <link href="/favicon.ico" type="image/x-icon" rel="shortcut icon">
 
   <link  href="vendor/bootstrap/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -41,32 +41,60 @@
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
 <header class="page-header">
+
+	<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v16.0&appId=268290216915260&autoLogAppEvents=1" nonce="D8GjzRSI"></script>
   
-    <div class="ctn-inner">
-      <div class="logo">
-        <a href="#"><img src="./images/logo.png" alt=""></a>
-      </div>
-      <div class="right-meta">
-        <div class="nav">
-          <ul>
-            <li><a href="#gioi-thieu">Giới thiệu</a></li>
-            <li><a href="#lich-trinh-tong-quan">Lịch trình tổng quan</a></li>
-            <li><a href="#chi-tiet-hoat-dong">Chi tiết hoạt động</a></li>
-          </ul>
-        </div>
-        <div class="register">
-          <a href="#dang-ky">Đăng ký</a>
-          
-        </div>
-       <!--  <div class="icon-menu-mobile">
-          <div class="inner">
-            <span></span>
-            <span></span>;
-            <span></span>
-          </div>
-        </div> -->
-      </div>
-    </div>
+<div class="ctn-inner">
+	<div class="icon-menu-mobile">
+	  <!-- <div class="inner">
+		<span></span>
+		<span></span>;
+		<span></span>
+	  </div> -->
+	  <img src="./images/menu-icon.png">
+	</div>
+	<div class="logo">
+	  <a href="#"><img src="./images/logo.png" alt=""></a>
+	</div>
+	<div class="right-meta">
+	  <div class="nav">
+		<div class="inner-nav">
+		  <div class="s-menu">
+			<div class="logo">
+			  <img src="./images/logo.png">
+			</div>
+			
+			<div class="icon">
+			  <img src="./images/-pFsbSqitmD.png">
+			</div>
+		  </div>
+		  <ul>
+			
+			<li><a class="s-click" data-src="#gioi-thieu">Giới thiệu</a></li>
+			<li><a class="s-click" data-src="#lich-trinh-tong-quan">Lịch trình tổng quan</a></li>
+			<li><a class="s-click" data-src="#chi-tiet-hoat-dong">Chi tiết hoạt động</a></li>
+			<li><a target="blank" href="https://www.facebook.com/VES2023NgayTrienLamVaDoiThoaiCongDong" >Facebook</a></li>
+			<li class="md-mobile" ><a data-src="#dawng-ky" class="smd-register s-click">Đăng kí</a></li>
+		  </ul> 
+
+		</div>
+		
+	  </div>
+	  <div class="register">
+		<a class="s-click"  data-src="#dang-ky">Đăng ký</a>
+		
+	  </div>
+	  <!-- <div class="icon-menu-mobile">
+		<div class="inner">
+		  <span></span>
+		  <span></span>;
+		  <span></span>
+		</div>
+		<img src="./images/menu-icon.png">
+	  </div> -->
+	</div>
+  </div>
   
 </header>
 <div id="form-register" class="form-register" style="display: none;">
@@ -104,12 +132,12 @@
 		  </div>
 		  <div class="item">
 			<label>Số điện thoại</label>
-			<input class="smd-box-register" id="phone" type="text" placeholder="" name="phone" onchange="App.Dev.phoneChange()">
+			<input class="smd-box-register" id="phone" type="tel" placeholder="" name="phone" onchange="App.Dev.phoneChange()">
 			 <p class="error">Số điện thoại không đúng</p>
 		  </div>
 		  <div class="item">
 			<label>Email</label>
-			<input class="smd-box-register" type="text" placeholder="" name="email">
+			<input class="smd-box-register" type="email" placeholder="" name="email">
 			<p class="error">Email không đúng</p>
 		  </div>
 		  <div class="item">
@@ -127,7 +155,7 @@
 	<div class="fl-right font-nunito-sans">
 	  <div class="box-1 box">
 	   <div class="info">
-		 <p class="color-green font-weight-bold">Thông tin ngân hàng</p>
+		<p class="color-green font-weight-bold">Thông tin thanh toán</p>
 		 <p class="font-weight-bold">Ngân hàng Á Châu</p>
 		 <p>Số tài khoản: <span id="bank-number">646664668</span></p>
 		 <p>Công ty CP Tư vấn giáo dục FAROS</p>
@@ -142,8 +170,11 @@
 	  
 	  <div class="box-2 box">
 		<div class="info">
-		  <b class="font-weight-bold color-green">Hướng dẫn chuyển khoản</b>
-		</br>
+			<a  data-fancybox="" data-src="#qr-code" style="display: block; color: #FF376E; font-weight: 700; white-space: nowrap;">Quét mã qr</a>
+        </br>
+        <b class="font-weight-bold color-green">Hướng dẫn chuyển khoản</b>
+        </br>
+        </br>
 		  <p>Bạn hãy thanh toán phí <span id="hv-money"></span> vào tài</p>
 		  <p>khoản trên với cú pháp:</p>
 		  <p class="font-weight-bold">VES23_SDT</p>
@@ -171,6 +202,9 @@
 	Chúng tôi sẽ liên hệ lại với bạn để xác nhận!
   </div>
 </div>  
+<div id="qr-code" style="display: none;">
+	<img src="./images/qr-code.png" style="max-height: 80vh; width: 100%">
+  </div>
 <!-- /.page-header -->
 
 <main class="page-main">
@@ -183,7 +217,7 @@
   		<div class="gioi-thieu clearfix" >
   			<div class="info">
   				<p>VES (Vietnam Education Symposium) là một diễn đàn giáo dục thường niên, nơi những nhà khoa học và thực hành giáo dục, những người làm chính sách và những nhà hoạt động cộng đồng … gặp gỡ để chia sẻ những ý tưởng góp phần đổi mới giáo dục Việt Nam. Năm 2023, VES chính thức quay lại với chủ đề ‘Giáo dục Mầm non đương đại Việt Nam: Tái định nghĩa và và Chuyển mình thay đổi”.</p>
-  				<img class="md-mobile thumb-nail" src="./images/thumb-1.jpg">
+  				<a href="https://vesvn.sciencesconf.org" target="_blank"><img class="md-mobile thumb-nail" src="./images/thumb-1.jpg"></a>
   				<p>Sự kiện diễn ra trong 2 ngày (25 & 26/03/2023). Trong đó ngày 26/03 là Ngày triển lãm và Đối thoại cộng đồng, được thiết kế dành riêng cho những người thực hành giáo dục mầm non (lãnh đạo/chủ trường mầm non, giáo viên, phụ huynh, những người hoạt động cộng đồng hay bất cứ ai quan tâm đến giáo dục mầm non). Với chủ đề “Tư duy lại tương lai/ Rethinking The Future”, sự kiện sẽ mang đến cho người tham sự những góc nhìn về sự chuyển mình của giáo dục mầm non giai đoạn hậu đại dịch, những tri thức và kinh nghiệm hữu ích mà người làm giáo dục mầm non cần trang bị để thích nghi với một tương lai nhiều biến động.</p>
   				<h3 class="title">Các hoạt động ngày triển lãm và đối thoại cộng đồng</h3>
   				<ul class="list">
@@ -194,9 +228,9 @@
   				</ul>
   			</div>
   			<div class="thumb">
-  				<img class="md-desktop thumb-nail" src="./images/thumb-1.jpg">
-  				<img class="thumb-nail" src="./images/thumb-2.jpg">
-  				<a href="https://forms.gle/UDt6ifk9M4qAVxDCA" target="_blank"><img class="thumb-nail" src="./images/thumb-3.jpg"></a>
+  				<a href="https://vesvn.sciencesconf.org" target="_blank"><img class="md-desktop thumb-nail" src="./images/thumb-1.jpg"></a>
+  				<a href="https://docs.google.com/forms/d/e/1FAIpQLScEYKDGrxgY5j44OZK6LYGaIlMkPpro5ZOlYKNDlPkJcO2hOg/viewform?usp=send_form" target="_blank"><img class="thumb-nail" src="./images/thumb-2.jpg"></a>
+  				<a href="https://drive.google.com/file/d/1Qn6iOMZJ1Kj4cAhITCyjY2tvN_0V3QUW/view?usp=drivesdk" target="_blank"><img class="thumb-nail" src="./images/thumb-3.jpg"></a>
   			</div>
   		</div>
   		<div class="s-plus">
@@ -214,7 +248,7 @@
   					<p>Trường học</p>
   				</li>
   			</ul>
-  			<a href="#dang-ky" class="smd-register">Đăng kí ngay</a>
+  			<a data-src="#dang-ky" class="smd-register s-click">Đăng kí ngay</a>
   		</div>
   	</div>
   </div>
@@ -237,14 +271,16 @@
   				<li class="w-26 color-white">
   					<span class="font-weight-bold">Phiên 1</span>
   					<p>Lịch sử Giáo dục Mầm non và các xu hướng mới</p>
-  					<p class="line"></p>
+  					<p class="line md-desktop"></p>
   					<p class="hl">Chủ trường/ Lãnh đạo/ Chuyên gia</p>
+					<p class="line md-mobile"></p>
   				</li>
   				<li class="w-26 color-white">
   					<span class="font-weight-bold">Phiên 2</span>
   					<p>Chân dung giáo viên mầm non hiệu quả</p>
-  					<p class="line"></p>
+  					<p class="line md-desktop"></p>
   					<p class="hl">Giáo viên/ Phụ trách chuyên môn</p>
+					<p class="line md-mobile"></p>
   				</li>
   				<li class="w-26 color-white">
   					<span class="font-weight-bold">Phiên 3</span>
@@ -290,205 +326,205 @@
 
 
   <div class="detail-activity" id="chi-tiet-hoat-dong">
-  	<div class="ctn-inner">
-  		<h2 class="font-size-64 color-red text-center font-baloo">Chi tiết <span>các hoạt động chính</span></h2>
-  		<div class="md-row hide-on-mb t-head">
-  			<div class="item font-size-26 font-baloo font-weight-bold color-green w-16">
-  				Thời gian
-  			</div>
-  			<div class="item font-size-26 font-baloo font-weight-bold color-green w-57">
-  				Hoạt động
-  			</div>
-  			<div class="item font-size-26 font-baloo font-weight-bold color-green w-27">
-  				Diễn giả
-  			</div>
-  		</div>
-  		<div class="blk-row">
-  			<div class="md-row">
-  				<div class="item w-16">
-  					<div class="time clock-green">
-  						<span class="color-green">8h30 - 10h30</span>
-  						<i class="icon-collapse active"></i>
-  					</div>
-  				</div>
-  				<div class="item w-84 info-hidden">
-  					<h3 class="color-green font-size-20 font-weight-bold bg-green">ĐỐI THOẠI CỘNG ĐỒNG: “TƯ DUY LẠI TƯƠNG LAI”</h3>
-  					<div class="info">
-  						<div class="f-left w-70">
-  							<p>1. Những thách thức và thuận lợi của giáo dục mầm non tại Việt Nam là gì?</p>
-  							<p>2. Đại dịch Covid-19 và những tác động nó để lại với giáo dục mầm non Việt Nam</p>
-  							<p>3. Giáo dục mầm non cần gì để chuyển mình và thích nghi với tương lai nhiều biến động.</p>
-  							<p>4. Những thay đổi về chính sách, môi trường cần thiết cho sự tiến bộ của giáo dục mầm non Việt Nam.</p>
-  						</div>
-  						<div class="f-right w-30">
-  							<p class="md-mobile item font-size-26 font-baloo font-weight-bold color-green">
-  								Diễn giả
-  							</p>
-  							<p class="dotted">&#x2022; Đại diện cơ quan quản lý giáo dục mầm non</p>
-  							<p class="dotted">&#x2022; 01 Nhà khoa học</p>
-  							<p class="dotted">&#x2022; 01 Đại diện trường tư thục</p>
-  							<p class="dotted">&#x2022; 01 Đại diện trường công lập</p>
-  						</div>
-  						
-  					</div>
-  				</div>
-  			</div>
-  		</div>
-  		<div class="blk-row">
-  			<div class="md-row">
-  				<div class="item w-16">
-  					<div class="time clock-green">
-  						<span class="color-green">10h30 - 11h30</span>
-              <i class="icon-collapse active"></i>
-  					</div>
-  				</div>
-  				<div class="item w-84 info-hidden">
-  					<h3 class="color-green font-size-20 font-weight-bold">Phiên 1:<span class="text-uppercase"> LỊCH SỬ GIÁO DỤC MẦM NON VÀ NHỮNG XU HƯỚNG MỚI</span></h3>
-  					<div class="info info-hidden">
-  						<div class="f-left w-70">
-  							<p>1. Lịch sử giáo dục mầm non thế giới và Việt Nam đã từng trải qua những giai đoạn, những thay đổi nào</p>
-  							<p>2. Các phương pháp giáo dục tuổi đầu đời được du nhập tại Việt Nam và những “lầm tưởng” tai hại</p>
-  							<p>3. Các xu hướng giáo dục mầm non mới giai đoạn hậu đại dịch.</p>
-  							<p>4. Giáo dục mầm non tại Việt Nam và các quốc gia đang phát triển: một “thị trường màu mỡ”?</p>
-  						</div>
-  						
-  						<div class="f-right w-30">
-  							<p class="md-mobile item font-size-26 font-baloo font-weight-bold color-green">
-  								Diễn giả
-  							</p>
-  							<p class="dotted">&#x2022; Nguyễn Thụy Phương</p>
-  							<p class="dotted">&#x2022; Nguyễn Thúy Uyên Phương</p>
-  							<p class="dotted">&#x2022; 01 nhà đầu tư trong lĩnh vực giáo dục mầm non</p>
-  						</div>	
+	<div class="ctn-inner">
+		<h2 class="font-size-64 color-red text-center font-baloo font-weight-bold">Chi tiết <span>các hoạt động chính</span></h2>
+		<div class="md-row hide-on-mb t-head">
+			<div class="item font-size-26 font-baloo font-weight-bold color-green w-16">
+				Thời gian
+			</div>
+			<div class="item font-size-26 font-baloo font-weight-bold color-green w-57">
+				Hoạt động
+			</div>
+			<div class="item font-size-26 font-baloo font-weight-bold color-green w-27">
+				Diễn giả
+			</div>
+		</div>
+		<div class="blk-row">
+			<div class="md-row">
+				<div class="item w-16">
+					<div class="time clock-green">
+						<span class="color-green">8h30 - 10h30</span>
+						<i class="icon-collapse"></i>
+					</div>
+				</div>
+				<div class="item w-84 info-hidden hide-content">
+					<h3 class="color-green font-size-20 font-weight-bold bg-green">ĐỐI THOẠI CỘNG ĐỒNG: “TƯ DUY LẠI TƯƠNG LAI”</h3>
+					<div class="info">
+						<div class="f-left w-70">
+							<p>1. Những thách thức và thuận lợi của giáo dục mầm non tại Việt Nam là gì?</p>
+							<p>2. Đại dịch Covid-19 và những tác động nó để lại với giáo dục mầm non Việt Nam</p>
+							<p>3. Giáo dục mầm non cần gì để chuyển mình và thích nghi với tương lai nhiều biến động.</p>
+							<p>4. Những thay đổi về chính sách, môi trường cần thiết cho sự tiến bộ của giáo dục mầm non Việt Nam.</p>
+						</div>
+						<div class="f-right w-30">
+							<p class="md-mobile item font-size-26 font-baloo font-weight-bold color-green">
+								Diễn giả
+							</p>
+							<p class="dotted">&#x2022; Đại diện cơ quan quản lý giáo dục mầm non</p>
+							<p class="dotted">&#x2022; 01 Nhà khoa học</p>
+							<p class="dotted">&#x2022; 01 Đại diện trường tư thục</p>
+							<p class="dotted">&#x2022; 01 Đại diện trường công lập</p>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="blk-row">
+			<div class="md-row">
+				<div class="item w-16">
+					<div class="time clock-green">
+						<span class="color-green">10h30 - 11h30</span>
+			<i class="icon-collapse"></i>
+					</div>
+				</div>
+				<div class="item w-84 info-hidden hide-content">
+					<h3 class="color-green font-size-20 font-weight-bold">Phiên 1:<span class="text-uppercase"> LỊCH SỬ GIÁO DỤC MẦM NON VÀ NHỮNG XU HƯỚNG MỚI</span></h3>
+					<div class="info info-hidden hide-content">
+						<div class="f-left w-70">
+							<p>1. Lịch sử giáo dục mầm non thế giới và Việt Nam đã từng trải qua những giai đoạn, những thay đổi nào</p>
+							<p>2. Các phương pháp giáo dục tuổi đầu đời được du nhập tại Việt Nam và những “lầm tưởng” tai hại</p>
+							<p>3. Các xu hướng giáo dục mầm non mới giai đoạn hậu đại dịch.</p>
+							<p>4. Giáo dục mầm non tại Việt Nam và các quốc gia đang phát triển: một “thị trường màu mỡ”?</p>
+						</div>
+						
+						<div class="f-right w-30">
+							<p class="md-mobile item font-size-26 font-baloo font-weight-bold color-green">
+								Diễn giả
+							</p>
+							<p class="dotted">&#x2022; Nguyễn Thụy Phương</p>
+							<p class="dotted">&#x2022; Nguyễn Thúy Uyên Phương</p>
+							<p class="dotted">&#x2022; 01 nhà đầu tư trong lĩnh vực giáo dục mầm non</p>
+						</div>	
 
-  					</div>	
-  					<div class="line-green"></div>
-
-
-  					<h3 class="color-green font-size-20 font-weight-bold">Phiên 2:<span class="text-uppercase"> CHÂN DUNG GIÁO VIÊN MẦM NON HIỆU QUẢ</span></h3>
-  					<div class="info">
-  						<div class="f-left w-70">
-  							<p>1. Hiểu về sứ mệnh – công việc của giáo viên mầm non.</p>
-  							<p>2. Những ảnh hưởng của giáo viên mầm non đến trẻ thơ trong giai đoạn nền tảng của cuộc đời.</p>
-  							<p>3. Chân dung giáo viên mầm non hiệu quả: Cần những kỹ năng, kiến thức, thái độ nào?</p>
-  							<p>4. Làm sao để hạnh phúc với nghề: Quản trị cảm xúc và cân bằng công việc cho giáo viên mầm non.</p>
-  						</div>
-  						
-  						<div class="f-right w-30">
-  							<p class="md-mobile item font-size-26 font-baloo font-weight-bold color-green">
-  								Diễn giả
-  							</p>
-  							<p class="dotted">&#x2022; 01 chuyên gia đào tạo giáo viên mầm non</p>
-  							<p class="dotted">&#x2022; 01 giáo viên mầm non giàu kinh nghiệm (hoặc hiệu trưởng/ hiệu phó đi lên từ vị trí giáo viên)</p>
-  							<p class="dotted">&#x2022; 01 chuyên gia về quản trị cảm xúc/ sức khỏe tinh thần</p>
-  						</div>	
-  					</div>
-
-  					<div class="line-green"></div>
+					</div>	
+					<div class="line-green"></div>
 
 
-  					<h3 class="color-green font-size-20 font-weight-bold">Phiên 3:<span class="text-uppercase"> TÂM LÝ TRẺ MẦM NON VÀ NHỮNG KHÓ KHĂN ĐẶC BIỆT</span></h3>
-  					<div class="info info-hidden">
-  						<div class="f-left w-70">
-  							<p>1. Hiểu về những đặc điểm tâm lý, đặc điểm phát triển của trẻ mầm non</p>
-  							<p>2. Những khó khăn đặc biệt của trẻ mầm non:</p>
-  							<span>-	Những vấn đề tâm lý</span>
-  							<span>-	Những vấn đề hành vi</span>
-  							<span>-	Những vấn đề ngôn ngữ</span>
-  							<span>-	Những khó khăn khác</span>
-  							<p>3. “Gỡ rối” cho cha mẹ trên hành trình trợ giúp con vượt qua khó khăn</p>
-  						</div>
-  						
-  						<div class="f-right w-30">
-  							<p class="md-mobile item font-size-26 font-baloo font-weight-bold color-green">
-  								Diễn giả
-  							</p>
-  							<p class="dotted">01 chuyên gia về tâm lý trẻ mầm non</p>
-  							<p class="dotted">01 chuyên gia về ngôn ngữ/ cảm xúc</p>
-  						</div>	
-  					</div>
-  				</div>
-  				
-  				
-  			</div>
-  		</div>
-  		<div class="blk-row">
-  			<div class="md-row">
-  				<div class="item w-16">
-  					<div class="time clock-green">
-  						<span class="color-green">13h00 - 14h00</span>
-              <i class="icon-collapse active"></i>
-  					</div>
-  				</div>
-  				<div class="item w-84 info-hidden">
-  					<h3 class="color-green font-size-20 font-weight-bold text-uppercase bg-green">CHIẾU PHIM: “GIÁO DỤC MỚI TẠI VIỆT NAM VÀ NHỮNG NHÀ TIÊN PHONG”</h3>
-  					<div class="info">
-  						<div class="f-left w-70">
-  							<p>Phim tài liệu về sự du nhập của các phương pháp Giáo dục Mới (được đại diện bởi những tên tuổi như Maria Montessori, John Dewey, Jean Piaget…) vào giáo dục mầm non Việt Nam; và những nhà tiên phong đưa giaó dục mới vào Việt Nam từ cách đây hơn 70 năm.</p>
-  						</div>
-  						
-  						<div class="f-right w-30">
-  							<p>Phim tài liệu được cung cấp bởi tổ chức giáo dục phi lợi nhuận The Caterpies.</p>
-  						</div>
-  					</div>
-  					
-  				</div>
-  			</div>
-  		</div>
-  		
-  		<div class="blk-row">
-  			<div class="md-row">
-  				<div class="item w-16">
-  					<div class="time clock-green">
-  						<span class="color-green">14h00 - 17h00</span>
-              <i class="icon-collapse"></i>
-  					</div>
-  				</div>
-  				<div class="item w-84 info-hidden">
-  					<h3 class="color-green font-size-20 font-weight-bold">Workshop 1:<span class="text-uppercase"> KỸ NĂNG XỬ LÝ XUNG ĐỘT VÀ SỰ CỐ TRONG TRƯỜNG MẦM NON</span></h3> 
-  					<div class="info">
-  						<div class="f-left w-70">
-  								<p>Công việc chăm sóc trẻ mầm non là một công việc nhiều vất vả và cũng tiềm ẩn những rủi ro. Vì thế, việc xử lý các xung đột giữa các mắt xích (giữa gia đình – nhà trường, giáo viên – giáo viên, học sinh – học sinh) để tạo nên một môi trường hòa ái, gắn kết vì sự phát triển của trẻ là một kỹ năng quan trọng mà những người lãnh đạo, quản lý trường mầm non không thể thiếu.</p>
-  						</div>
-  						
-  						<div class="f-right w-30">
-  							<p>Chuyên gia đào tạo của FAROS Education & Consulting, dựa trên mô hình hóa giải xung đột nhà trường – gia đình của Tiến sĩ Thomas Gordon (người 3 lần được đề cử Nobel Hòa Bình)</p>
-  						</div>	
-  					</div>
-  					<div class="line-green"></div>
+					<h3 class="color-green font-size-20 font-weight-bold">Phiên 2:<span class="text-uppercase"> CHÂN DUNG GIÁO VIÊN MẦM NON HIỆU QUẢ</span></h3>
+					<div class="info">
+						<div class="f-left w-70">
+							<p>1. Hiểu về sứ mệnh – công việc của giáo viên mầm non.</p>
+							<p>2. Những ảnh hưởng của giáo viên mầm non đến trẻ thơ trong giai đoạn nền tảng của cuộc đời.</p>
+							<p>3. Chân dung giáo viên mầm non hiệu quả: Cần những kỹ năng, kiến thức, thái độ nào?</p>
+							<p>4. Làm sao để hạnh phúc với nghề: Quản trị cảm xúc và cân bằng công việc cho giáo viên mầm non.</p>
+						</div>
+						
+						<div class="f-right w-30">
+							<p class="md-mobile item font-size-26 font-baloo font-weight-bold color-green">
+								Diễn giả
+							</p>
+							<p class="dotted">&#x2022; 01 chuyên gia đào tạo giáo viên mầm non</p>
+							<p class="dotted">&#x2022; 01 giáo viên mầm non giàu kinh nghiệm (hoặc hiệu trưởng/ hiệu phó đi lên từ vị trí giáo viên)</p>
+							<p class="dotted">&#x2022; 01 chuyên gia về quản trị cảm xúc/ sức khỏe tinh thần</p>
+						</div>	
+					</div>
+
+					<div class="line-green"></div>
+
+
+					<h3 class="color-green font-size-20 font-weight-bold">Phiên 3:<span class="text-uppercase"> TÂM LÝ TRẺ MẦM NON VÀ NHỮNG KHÓ KHĂN ĐẶC BIỆT</span></h3>
+					<div class="info info-hidden hide-content">
+						<div class="f-left w-70">
+							<p>1. Hiểu về những đặc điểm tâm lý, đặc điểm phát triển của trẻ mầm non</p>
+							<p>2. Những khó khăn đặc biệt của trẻ mầm non:</p>
+							<span>-	Những vấn đề tâm lý</span>
+							<span>-	Những vấn đề hành vi</span>
+							<span>-	Những vấn đề ngôn ngữ</span>
+							<span>-	Những khó khăn khác</span>
+							<p>3. “Gỡ rối” cho cha mẹ trên hành trình trợ giúp con vượt qua khó khăn</p>
+						</div>
+						
+						<div class="f-right w-30">
+							<p class="md-mobile item font-size-26 font-baloo font-weight-bold color-green">
+								Diễn giả
+							</p>
+							<p class="dotted">&#x2022; 01 chuyên gia về tâm lý trẻ mầm non</p>
+  							<p class="dotted">&#x2022; 01 chuyên gia về ngôn ngữ/ cảm xúc</p>
+						</div>	
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+		<div class="blk-row">
+			<div class="md-row">
+				<div class="item w-16">
+					<div class="time clock-green">
+						<span class="color-green">13h00 - 14h00</span>
+			<i class="icon-collapse"></i>
+					</div>
+				</div>
+				<div class="item w-84 info-hidden hide-content">
+					<h3 class="color-green font-size-20 font-weight-bold text-uppercase bg-green">CHIẾU PHIM: “GIÁO DỤC MỚI TẠI VIỆT NAM VÀ NHỮNG NHÀ TIÊN PHONG”</h3>
+					<div class="info">
+						<div class="f-left w-70">
+							<p>Phim tài liệu về sự du nhập của các phương pháp Giáo dục Mới (được đại diện bởi những tên tuổi như Maria Montessori, John Dewey, Jean Piaget…) vào giáo dục mầm non Việt Nam; và những nhà tiên phong đưa giaó dục mới vào Việt Nam từ cách đây hơn 70 năm.</p>
+						</div>
+						
+						<div class="f-right w-30">
+							<p>Phim tài liệu được cung cấp bởi tổ chức giáo dục phi lợi nhuận The Caterpies.</p>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+		<div class="blk-row">
+			<div class="md-row">
+				<div class="item w-16">
+					<div class="time clock-green">
+						<span class="color-green">14h00 - 17h00</span>
+			<i class="icon-collapse"></i>
+					</div>
+				</div>
+				<div class="item w-84 info-hidden hide-content">
+					<h3 class="color-green font-size-20 font-weight-bold">Workshop 1:<span class="text-uppercase"> KỸ NĂNG XỬ LÝ XUNG ĐỘT VÀ SỰ CỐ TRONG TRƯỜNG MẦM NON</span></h3> 
+					<div class="info">
+						<div class="f-left w-70">
+								<p>Công việc chăm sóc trẻ mầm non là một công việc nhiều vất vả và cũng tiềm ẩn những rủi ro. Vì thế, việc xử lý các xung đột giữa các mắt xích (giữa gia đình – nhà trường, giáo viên – giáo viên, học sinh – học sinh) để tạo nên một môi trường hòa ái, gắn kết vì sự phát triển của trẻ là một kỹ năng quan trọng mà những người lãnh đạo, quản lý trường mầm non không thể thiếu.</p>
+						</div>
+						
+						<div class="f-right w-30">
+							<p>Chuyên gia đào tạo của FAROS Education & Consulting, dựa trên mô hình hóa giải xung đột nhà trường – gia đình của Tiến sĩ Thomas Gordon (người 3 lần được đề cử Nobel Hòa Bình)</p>
+						</div>	
+					</div>
+					<div class="line-green"></div>
 
 
 
-  					<h3 class="color-green font-size-20 font-weight-bold">Workshop 2:<span class="text-uppercase"> QUẢN LÝ LỚP HỌC MẦM NON BẰNG KỶ LUẬT TÍCH CỰC VÀ YÊU THƯƠNG</span></h3>
-  					<div class="info">
-  						<div class="f-left w-70">
-  							<p>Một giáo viên mầm non hiệu quả là một giáo viên có khả năng xây dựng một bầu không khí yêu thương trong lớp học, nơi trẻ cảm thấy mình được nâng đỡ, hỗ trợ. Nhưng đồng thời, giáo viên cũng cần có những kỹ năng để thiết lật kỷ luật lớp học một cách tích cực để gieo trồng cho trẻ những nề nếp, thói quen tốt. Làm thế nào để cân bằng giữa hai mục tiêu này?</p>
-  						</div>
-  						
-  						<div class="f-right w-30">
-  							<p>Chuyên gia đào tạo về kỷ luật tích cực.</p>
-  						</div>	
-  					</div>
+					<h3 class="color-green font-size-20 font-weight-bold">Workshop 2:<span class="text-uppercase"> QUẢN LÝ LỚP HỌC MẦM NON BẰNG KỶ LUẬT TÍCH CỰC VÀ YÊU THƯƠNG</span></h3>
+					<div class="info">
+						<div class="f-left w-70">
+							<p>Một giáo viên mầm non hiệu quả là một giáo viên có khả năng xây dựng một bầu không khí yêu thương trong lớp học, nơi trẻ cảm thấy mình được nâng đỡ, hỗ trợ. Nhưng đồng thời, giáo viên cũng cần có những kỹ năng để thiết lật kỷ luật lớp học một cách tích cực để gieo trồng cho trẻ những nề nếp, thói quen tốt. Làm thế nào để cân bằng giữa hai mục tiêu này?</p>
+						</div>
+						
+						<div class="f-right w-30">
+							<p>Chuyên gia đào tạo về kỷ luật tích cực.</p>
+						</div>	
+					</div>
 
-  					<div class="line-green"></div>
+					<div class="line-green"></div>
 
 
-  					<h3 class="color-green font-size-20 font-weight-bold">Workshop 3:<span class="text-uppercase"> TRẺ MẦM NON HỌC THÔNG QUA CÁC TRÒ CHƠI THẾ NÀO?</span></h3> 
-  					<div class="info">
-  						<div class="f-left w-70">
-  							<p>Chơi là cách để trẻ mầm non khám phá thế giới và qua đó tự đào luyện bản thân, hình thành những kỹ năng mới. Cha mẹ, người lớn cần hiểu về việc vui chơi của trẻ? Các trò chơi phù hợp với từng giai đoạn phát triển của trẻ mầm non là gì? Cách chơi cùng con như thế nào?</p>
-  						</div>
-  						
-  						<div class="f-right w-30">
-  							<p>Chuyên gia về vui chơi, vận động của trẻ mầm non</p>
-  						</div>	
-  					</div>
-  				</div>
-  			</div>
-  		</div>
-  		
-  	</div>
-  </div>
+					<h3 class="color-green font-size-20 font-weight-bold">Workshop 3:<span class="text-uppercase"> TRẺ MẦM NON HỌC THÔNG QUA CÁC TRÒ CHƠI THẾ NÀO?</span></h3> 
+					<div class="info">
+						<div class="f-left w-70">
+							<p>Chơi là cách để trẻ mầm non khám phá thế giới và qua đó tự đào luyện bản thân, hình thành những kỹ năng mới. Cha mẹ, người lớn cần hiểu về việc vui chơi của trẻ? Các trò chơi phù hợp với từng giai đoạn phát triển của trẻ mầm non là gì? Cách chơi cùng con như thế nào?</p>
+						</div>
+						
+						<div class="f-right w-30">
+							<p>Chuyên gia về vui chơi, vận động của trẻ mầm non</p>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div>
   <div class="blk-register" id="dang-ky">
     <div class="ctn-inner">
       <h2 class="font-size-64 color-red text-center font-baloo font-weight-bold">Đăng ký tham gia</h2>
@@ -509,7 +545,7 @@
             <p><span class="color-red font-size-32 font-weight-bold">500.000đ</span>/người</p>
           </div>
           <div class="info">
-            <p>Xem lại toàn bộ các video phiên thảo luận và workshop của sự kiện</p>
+            <p>Tham dự trực tuyến và xem lại toàn bộ các Video phiên thảo luận và workshop của sự kiện</p>
           </div>
           <a href="#" onclick="App.Dev.chonHangVe('Virtual');" data-fancybox="" data-src="#form-register" class="smd-register">Đăng kí</a>
         </div>
@@ -526,45 +562,75 @@
       </div>
     </div>
   </div>
-  <div class="nha-tai-tro">
+  <!-- <div class="nha-tai-tro">
     <div class="ctn-inner">
       <div class="md-row">
         <div class="smd-title">
-          <p class="color-green font-nunito-sans">Nhà tài trợ Vàng</p>
+          <p class="color-green font-nunito-sans font-weight-bold">Nhà tài trợ Vàng</p>
         </div>
         <div class="list-sponsor">
-          <div class="item"><a href="#"><img src="./images/icon-hsbc.png"></a></div>
+          <div class="item item-center icon-hsbc"><a href="#"><img src="./images/icon-hsbc.png"></a></div>
         </div>
       </div>
-      <div class="md-row">
+      <div class="md-row md-row-flex">
+        <div class="blk-item blk-item-1">
+          <div class="smd-title">
+            <p class="color-green font-nunito-sans font-weight-bold">Nhà tài trợ Bạc</p>
+          </div>
+          <div class="list-sponsor">
+            <div class="item icon-pda"><a><img src="./images/icon-pda.png"></a></div>
+            <div class="item icon-niteco"><a><img src="./images/icon-niteco.png"></a></div>
+            <div class="item icon-meey-land"><a><img src="./images/icon-meey-land.png"></a></div>
+            <div class="item icon-michael-page"><a><img src="./images/icon-michael-page.png"></a></div>
+            <div class="item icon-flamingo"><a><img src="./images/icon-flamingo.png"></a></div>
+          </div>
+        </div>
+        <div class="blk-item blk-item-2">
+          <div class="smd-title">
+            <p class="color-green font-nunito-sans font-weight-bold">Nhà tài trợ Đồng</p>
+          </div>
+          <div class="list-sponsor item-hl-desktop">
+            <div class="item icon-galaxy"><a ><img src="./images/icon-galaxy.png"></a></div>
+            <div class="item icon-industracom"><a ><img src="./images/icon-industracom.png"></a></div>
+            <div class="item icon-vani-studio"><a ><img src="./images/icon-vani-studio.png"></a></div>
+          </div>
+        </div>
+      </div>
 
-        <div class="blk-item">
-          <div class="smd-title">
-            <p class="color-green font-nunito-sans">Nhà tài trợ Bạc</p>
-          </div>
-          <div class="list-sponsor">
-            <div class="item icon-pda"><a href="#"><img src="./images/icon-pda.png"></a></div>
-            <div class="item icon-niteco"><a href="#"><img src="./images/icon-niteco.png"></a></div>
-            <div class="item icon-meey-land"><a href="#"><img src="./images/icon-meey-land.png"></a></div>
-            <div class="item icon-michael-page"><a href="#"><img src="./images/icon-michael-page.png"></a></div>
-            <div class="item icon-flamingo"><a href="#"><img src="./images/icon-flamingo.png"></a></div>
-          </div>
+      <div class="md-row">
+        <div class="smd-title">
+            <p class="color-green font-nunito-sans font-weight-bold">Nhà đồng hành</p>
         </div>
-        <div class="blk-item">
-          <div class="smd-title">
-            <p class="color-green font-nunito-sans">Nhà tài trợ Bạc</p>
-          </div>
-          <div class="list-sponsor">
-            <div class="item icon-galaxy"><a href="#"><img src="./images/icon-galaxy.png"></a></div>
-            <div class="item icon-industracom"><a href="#"><img src="./images/icon-industracom.png"></a></div>
-            <div class="item icon-vani-studio"><a href="#"><img src="./images/icon-vani-studio.png"></a></div>
-          </div>
+        <div class="list-sponsor s-desktop">
+          <div class="item icon-oganicca"><a ><img src="./images/icon-oganicca.png"></a></div>
+          <div class="item icon-renner"><a ><img src="./images/icon-renner.png"></a></div>
+          <div class="item icon-thankslap"><a ><img src="./images/icon-thankslap.png"></a></div>
+          <div class="item icon-varters"><a ><img src="./images/icon-varters.png"></a></div>
+          <div class="item icon-samsung"><a ><img src="./images/icon-samsung.png"></a></div>
+          <div class="item icon-ecoba"><a ><img src="./images/icon-ecoba.png"></a></div>
+          <div class="item icon-edison"><a ><img src="./images/icon-edison.png"></a></div>
+          <div class="item icon-ateam"><a ><img src="./images/icon-ateam.png"></a></div>
+          <div class="item icon-vinschool"><a ><img src="./images/icon-vinschool.png"></a></div>
+          <div class="item icon-pixelz"><a ><img src="./images/icon-pixelz.png"></a></div>
         </div>
-      </div>
-      
+        <div class="list-sponsor s-mobile">
+          <div class="item icon-oganicca"><a ><img src="./images/icon-oganicca.png"></a></div>
+          <div class="item icon-renner"><a ><img src="./images/icon-renner.png"></a></div>
+          <div class="item icon-thankslap"><a ><img src="./images/icon-thankslap.png"></a></div>
+          <div class="item icon-varters"><a ><img src="./images/icon-varters.png"></a></div>
+          <div class="item icon-samsung"><a ><img src="./images/icon-samsung.png"></a></div>
+        </div>
+        <div class="list-sponsor s-mobile">
+          <div class="item icon-ecoba"><a ><img src="./images/icon-ecoba.png"></a></div>
+          <div class="item icon-edison"><a ><img src="./images/icon-edison.png"></a></div>
+          <div class="item icon-ateam"><a ><img src="./images/icon-ateam.png"></a></div>
+          <div class="item icon-vinschool"><a ><img src="./images/icon-vinschool.png"></a></div>
+          <div class="item icon-pixelz"><a ><img src="./images/icon-pixelz.png"></a></div>
+        </div>
     </div>
+	</div>
     
-  </div>
+  </div> -->
 </main>
 <!-- /.page-main -->
 
@@ -580,41 +646,54 @@
   		</div>
   	</div>
   	<div class="info-meta">
-  		<div class="item">
-	  		<p class=" font-weight-bold title">FAROS Education & Consulting</p>	
-	  		<p>FAROS Education & Consulting là tổ chức tư vấn và đào tạo hàng đầu tại Việt Nam dành riêng cho các tổ chức giáo dục.
-			Chúng tôi cung cấp các giải pháp toàn diện nhằm nâng cao hiệu quả vận hành và năng lực chuyên môn cho các trường học. Bên cạnh đó, FAROS còn là đơn vị thiết kế và vận hành trường học chuyên nghiệp cho các nhà đầu tư giáo dục.</p>
-			<div class="address">
-				<div class="icon">
-					<a href="#"><img src="./images/faros.png"></a>
-				</div>
-				<div class="info">
-					<p>Website <a href="https://faros.edu.vn" target="_blank">www.faros.edu.vn</a></p>
-					<p>Hotline <a href="tel:0906616526">0906 616 526</a></p>
-					<p>Email <a href="#">daotao@faros.edu.vn</a></p>
-				</div>
-			</div>	
-  		</div>
-  		<div class="item">
-	  		<p class=" font-weight-bold title">Trường Đại học Sư phạm Hà Nội</p>	
-	  		<p>Trường Đại học Sư phạm Hà Nội là một trung tâm đào tạo đại học, sau đại học, nghiên cứu và ứng dụng khoa học giáo dục và đa ngành chất lượng cao, là một trong các trường đại học trọng điểm trong hệ thống giáo dục đại học Việt Nam</p>
-			<div class="address">
-				<div class="icon">
-					<a href="#"><img src="./images/hnue.png"></a>
-				</div>
-				<div class="info">
-					<p>Website <a href="https://hnue.edu.vn" target="_blank">www.hnue.edu.vn</a></p>
-					<p>Hotline <a href="tel:02437547823">024-37547823</a></p>
-					<p>Fax <a href="#">024-37547971</a></p>
-					<p>Email <a href="#">p.hcdn@hnue.edu.vn</a></p>
-				</div>
-			</div>	
-  		</div>
-  		<div class="item">
-	  		<p class=" font-weight-bold title">Facebook Fanpage</p>
-	  		<img class="img-fb" src="./images/fanpage-fb.jpg">
-  		</div>
-  	</div>
+  		
+		<div class="item">
+			<p class=" font-weight-bold title">Trường Đại học Sư phạm Hà Nội</p>	
+			<p>Trường Đại học Sư phạm Hà Nội là một trung tâm đào tạo đại học, sau đại học, nghiên cứu và ứng dụng khoa học giáo dục và đa ngành chất lượng cao, là một trong các trường đại học trọng điểm trong hệ thống giáo dục đại học Việt Nam</p>
+			<p>Hanoi National University of Education<br>136 Xuân Thủy - Cầu Giấy - Hà Nội</p>
+		  <div class="address">
+			  <div class="icon">
+				  <a href="#"><img src="./images/hnue.png"></a>
+			  </div>
+			  <div class="info">
+				  <p>Website <a href="www.hnue.edu.vn">www.hnue.edu.vn</a></p>
+				  <p>Hotline <a href="#">024-37547823</a></p>
+				  <p>Fax <a href="#">024-37547971</a></p>
+				  <p>Email <a href="#">p.hcdn@hnue.edu.vn</a></p>
+			  </div>
+		  </div>	
+		</div>
+		<div class="item">
+			<p class=" font-weight-bold title">FAROS Education & Consulting</p>	
+			<p>FAROS Education & Consulting là tổ chức tư vấn và đào tạo hàng đầu tại Việt Nam dành riêng cho các tổ chức giáo dục.
+		  Chúng tôi cung cấp các giải pháp toàn diện nhằm nâng cao hiệu quả vận hành và năng lực chuyên môn cho các trường học. Bên cạnh đó, FAROS còn là đơn vị thiết kế và vận hành trường học chuyên nghiệp cho các nhà đầu tư giáo dục.</p>
+		  <div class="address">
+			  <div class="icon">
+				  <a href="#"><img src="./images/faros.png"></a>
+			  </div>
+			  <div class="info">
+				  <p>Website : <a href="www.faros.edu.vn">www.faros.edu.vn</a></p>
+				  <p>Hotline : <a href="#">0906 616 526</a></p>
+				  <p>Email : <a href="#">daotao@faros.edu.vn</a></p>
+			  </div>
+		  </div>	
+		</div>
+		<div class="item">
+			<p class=" font-weight-bold title">AVSE Global</p>	
+			
+			<p>Tổ chức Khoa học và Chuyên gia Việt Nam (AVSE Global) được thành lập vào tháng 5 năm 2011, với mục đích kết nối một cách hệ thống sức mạnh trí tuệ tập thể của chuyên gia, trí thức người Việt toàn cầu xuất sắc về chuyên môn và giàu khát vọng đóng góp cho đất nước.</p>
+			<p>Tổ chức Khoa học và Chuyên gia Việt Nam toàn cầu (AVSE Global)</p>
+		  <div class="address">
+			  <div class="icon">
+				  <a href="#"><img src="./images/aves-logo.png"></a>
+			  </div>
+			  <div class="info">
+				  <p>Website: <a href="https://vesvn.sciencesconf.org/">https://vesvn.sciencesconf.org/</a></p>
+				  <p>Email: <a href="#">ves@avseglobal.org</a></p>
+			  </div>
+		  </div>	
+		</div>
+	</div>
   </div>
 </footer>
 <!-- /.page-footer -->
