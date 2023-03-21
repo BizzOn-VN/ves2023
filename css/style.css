@@ -1423,12 +1423,6 @@ input[type=submit] {
 .nha-tai-tro .blk-item {
   width: 45%;
 }
-.nha-tai-tro .blk-item-1 {
-  width: 50%;
-}
-.nha-tai-tro .blk-item-2 {
-  width: 45%;
-}
 .nha-tai-tro .md-row-flex {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1440,7 +1434,7 @@ input[type=submit] {
           justify-content: space-between;
 }
 .nha-tai-tro .md-row {
-  margin: 0px 0px 4vw;
+  margin: 0px 0px 2vw;
 }
 @media screen and (max-width: 768px) {
   .nha-tai-tro .md-row-flex {
@@ -1456,12 +1450,12 @@ input[type=submit] {
     margin: 0px 0px 10vw;
   }
   .nha-tai-tro .md-row {
-    margin: 0px 0px 10vw;
+    margin: 0px 0px 7vw;
   }
 }
 
 .smd-title {
-  padding: 1.3% 0px;
+  padding: 1% 0px;
   text-align: center;
   border-top: 1px solid #ebeceb;
   border-bottom: 1px solid #ebeceb;
@@ -1475,7 +1469,7 @@ input[type=submit] {
   }
 }
 
-.list-sponsor {
+.dvtc {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1484,21 +1478,23 @@ input[type=submit] {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 40%;
+  margin: 0 auto;
 }
-.list-sponsor.s-desktop {
+.dvtc.s-desktop {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
-.list-sponsor.s-mobile {
+.dvtc.s-mobile {
   display: none;
 }
-.list-sponsor.item-hl-desktop {
+.dvtc.item-hl-desktop {
   width: 80%;
   margin: 0 auto;
 }
-.list-sponsor .item {
+.dvtc .item {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1508,116 +1504,150 @@ input[type=submit] {
       -ms-flex-align: center;
           align-items: center;
 }
-.list-sponsor .item img {
+.dvtc .item img {
   width: 100%;
 }
-.list-sponsor .item-center {
-  margin: 0 auto;
+.dvtc .icon-dvtc-1 {
+  width: 19%;
 }
-.list-sponsor .icon-hsbc {
-  width: 23.5%;
+.dvtc .icon-dvtc-2 {
+  width: 15%;
 }
-.list-sponsor .icon-pda {
-  width: 15.3%;
+.dvtc .icon-dvtc-3 {
+  width: 19%;
 }
-.list-sponsor .icon-niteco {
-  width: 15.8%;
+.dvtc .icon-dvtc-4 {
+  width: 24%;
 }
-.list-sponsor .icon-meey-land {
-  width: 14.7%;
-}
-.list-sponsor .icon-michael-page {
-  width: 16.9%;
-}
-.list-sponsor .icon-flamingo {
-  width: 20.54%;
-}
-.list-sponsor .icon-galaxy {
-  width: 32.5%;
-}
-.list-sponsor .icon-industracom {
-  width: 33.24%;
-}
-.list-sponsor .icon-vani-studio {
-  width: 25.6%;
-}
-.list-sponsor .icon-oganicca {
-  width: 7.1%;
-}
-.list-sponsor .icon-renner {
-  width: 8.3%;
-}
-.list-sponsor .icon-thankslap {
-  width: 10.05%;
-}
-.list-sponsor .icon-varters {
-  width: 7.19%;
-}
-.list-sponsor .icon-samsung {
-  width: 8.6%;
-}
-.list-sponsor .icon-ecoba {
-  width: 7.4%;
-}
-.list-sponsor .icon-edison {
-  width: 7.8%;
-}
-.list-sponsor .icon-ateam {
-  width: 8.24%;
-}
-.list-sponsor .icon-vinschool {
-  width: 5.9%;
-}
-.list-sponsor .icon-pixelz {
-  width: 7.63%;
-}
-.list-sponsor a {
+.dvtc a {
   display: block;
+  width: 100%;
 }
-.list-sponsor a img {
+.dvtc a img {
   width: 100%;
 }
 @media screen and (max-width: 768px) {
-  .list-sponsor.s-desktop {
-    display: none;
+  .dvtc {
+    width: 80%;
   }
-  .list-sponsor.s-mobile {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+}
+
+.ndh {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 40%;
+  margin: 0 auto;
+}
+.ndh a {
+  display: block;
+  width: 100%;
+}
+.ndh a img {
+  width: 100%;
+}
+.ndh .icon-ndh-1 {
+  width: 18%;
+}
+.ndh .icon-ndh-2 {
+  width: 16%;
+}
+.ndh .icon-ndh-3 {
+  width: 45%;
+}
+@media screen and (max-width: 768px) {
+  .ndh {
+    width: 80%;
   }
-  .list-sponsor .icon-hsbc {
-    width: 51.8%;
+}
+
+.dvtgtl {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.dvtgtl a {
+  display: block;
+  width: 100%;
+}
+.dvtgtl a img {
+  width: 100%;
+}
+.dvtgtl .icon-dvtgtl-1 {
+  width: 8%;
+}
+.dvtgtl .icon-dvtgtl-2 {
+  width: 19%;
+}
+.dvtgtl .icon-dvtgtl-3 {
+  width: 9%;
+}
+.dvtgtl .icon-dvtgtl-4 {
+  width: 14%;
+  padding: 0px 2%;
+}
+.dvtgtl .icon-dvtgtl-5 {
+  width: 12%;
+}
+.dvtgtl .icon-dvtgtl-6 {
+  width: 14%;
+}
+.dvtgtl .icon-dvtgtl-7 {
+  width: 12%;
+}
+.dvtgtl .icon-dvtgtl-8 {
+  width: 12%;
+}
+@media screen and (max-width: 768px) {
+  .dvtgtl {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
   }
-  .list-sponsor .icon-oganicca {
-    width: 16.66%;
+  .dvtgtl .icon-dvtgtl-1 {
+    width: 18%;
   }
-  .list-sponsor .icon-renner {
-    width: 19.36%;
+  .dvtgtl .icon-dvtgtl-2 {
+    width: 26%;
   }
-  .list-sponsor .icon-thankslap {
-    width: 17.66%;
+  .dvtgtl .icon-dvtgtl-3 {
+    width: 19%;
   }
-  .list-sponsor .icon-varters {
-    width: 16.6%;
+  .dvtgtl .icon-dvtgtl-4 {
+    width: 24%;
+    padding: 0px 2%;
   }
-  .list-sponsor .icon-samsung {
-    width: 19.9%;
+  .dvtgtl .icon-dvtgtl-5 {
+    width: 22%;
   }
-  .list-sponsor .icon-ecoba {
-    width: 17.18%;
+  .dvtgtl .icon-dvtgtl-6 {
+    width: 24%;
   }
-  .list-sponsor .icon-edison {
-    width: 18.07%;
+  .dvtgtl .icon-dvtgtl-7 {
+    width: 22%;
   }
-  .list-sponsor .icon-ateam {
-    width: 19.1%;
-  }
-  .list-sponsor .icon-vinschool {
-    width: 13.8%;
-  }
-  .list-sponsor .icon-pixelz {
-    width: 24.3%;
+  .dvtgtl .icon-dvtgtl-8 {
+    width: 22%;
   }
 }
