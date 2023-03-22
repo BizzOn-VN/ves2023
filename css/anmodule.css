@@ -949,7 +949,27 @@
   margin: 0px 0px 1vw;
 }
 .blk-register .smd-option .item .top-meta {
-  margin: 0px 0px 2.5vw;
+  margin: 0px 0px 3.3vw;
+  position: relative;
+}
+.blk-register .smd-option .item .top-meta .disable-title-ticket {
+  position: absolute;
+  top: 105%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+       -o-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+@media screen and (max-width: 768px) {
+  .blk-register .smd-option .item .top-meta {
+    margin: 0px 0px 8.3vw;
+  }
+  .blk-register .smd-option .item .top-meta .disable-title-ticket {
+    font-size: -webkit-calc(8px + 2.75vw);
+    font-size: calc(8px + 2.75vw);
+    top: 103%;
+  }
 }
 .blk-register .smd-option .item .info {
   margin: 0px 0px 2vw;
@@ -961,6 +981,11 @@
 .blk-register .smd-option .item .smd-register {
   padding: 1.2em 3.5em;
   min-width: 77%;
+}
+.blk-register .smd-option .item .smd-register.disabled {
+  background: #e5e5e5;
+  color: #9c9696;
+  cursor: auto;
 }
 @media screen and (max-width: 768px) {
   .blk-register .smd-option {
