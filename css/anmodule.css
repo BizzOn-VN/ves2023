@@ -1118,8 +1118,12 @@
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 40%;
+  width: 55%;
   margin: 0 auto;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .ndh a {
   display: block;
@@ -1129,17 +1133,20 @@
   width: 100%;
 }
 .ndh .icon-ndh-1 {
-  width: 18%;
+  width: 15%;
 }
 .ndh .icon-ndh-2 {
-  width: 16%;
+  width: 13%;
 }
 .ndh .icon-ndh-3 {
-  width: 45%;
+  width: 30%;
+}
+.ndh .icon-ndh-4 {
+  width: 22%;
 }
 @media screen and (max-width: 768px) {
   .ndh {
-    width: 80%;
+    width: 90%;
   }
 }
 
@@ -1155,7 +1162,7 @@
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -1170,28 +1177,31 @@
   width: 100%;
 }
 .dvtgtl .icon-dvtgtl-1 {
-  width: 8%;
+  width: 6%;
 }
 .dvtgtl .icon-dvtgtl-2 {
-  width: 19%;
+  width: 17%;
 }
 .dvtgtl .icon-dvtgtl-3 {
-  width: 9%;
+  width: 8%;
 }
 .dvtgtl .icon-dvtgtl-4 {
-  width: 14%;
+  width: 13%;
   padding: 0px 2%;
 }
 .dvtgtl .icon-dvtgtl-5 {
-  width: 12%;
+  width: 10%;
 }
 .dvtgtl .icon-dvtgtl-6 {
-  width: 14%;
-}
-.dvtgtl .icon-dvtgtl-7 {
   width: 12%;
 }
+.dvtgtl .icon-dvtgtl-7 {
+  width: 11%;
+}
 .dvtgtl .icon-dvtgtl-8 {
+  width: 11%;
+}
+.dvtgtl .icon-dvtgtl-9 {
   width: 12%;
 }
 @media screen and (max-width: 768px) {
@@ -1203,28 +1213,31 @@
     width: 100%;
   }
   .dvtgtl .icon-dvtgtl-1 {
-    width: 18%;
+    width: 15%;
   }
   .dvtgtl .icon-dvtgtl-2 {
     width: 26%;
   }
   .dvtgtl .icon-dvtgtl-3 {
-    width: 19%;
+    width: 16%;
   }
   .dvtgtl .icon-dvtgtl-4 {
-    width: 24%;
+    width: 26%;
     padding: 0px 2%;
   }
   .dvtgtl .icon-dvtgtl-5 {
-    width: 22%;
+    width: 18%;
   }
   .dvtgtl .icon-dvtgtl-6 {
-    width: 24%;
+    width: 20%;
   }
   .dvtgtl .icon-dvtgtl-7 {
-    width: 22%;
+    width: 18%;
   }
   .dvtgtl .icon-dvtgtl-8 {
-    width: 22%;
+    width: 18%;
+  }
+  .dvtgtl .icon-dvtgtl-9 {
+    width: 20%;
   }
 }
